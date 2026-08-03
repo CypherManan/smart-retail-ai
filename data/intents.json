@@ -1,0 +1,60 @@
+{
+  "intents": [
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order",
+        "track my order",
+        "order status",
+        "has my order shipped",
+        "when will my order arrive",
+        "order tracking number"
+      ],
+      "response": "You can track your order status by entering your order ID on the 'My Orders' page. Most orders ship within 24-48 hours."
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "how do I return an item",
+        "return policy",
+        "can I get a refund",
+        "how to exchange a product",
+        "refund process",
+        "item return window"
+      ],
+      "response": "You can return any item within 30 days of delivery for a full refund. Start a return from the 'My Orders' page."
+    },
+    {
+      "tag": "store_hours",
+      "patterns": [
+        "what are your store hours",
+        "when are you open",
+        "store timing",
+        "are you open today",
+        "opening hours",
+        "closing time"
+      ],
+      "response": "Our stores are open Monday to Saturday, 10 AM to 9 PM, and Sunday 11 AM to 6 PM."
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening"],
+      "response": "Hi! I'm your virtual shopping assistant. Ask me about orders, returns, or store hours."
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "thanks bye"],
+      "response": "Thanks for chatting! Have a great day."
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "what payment methods do you accept",
+        "can I pay by card",
+        "do you accept cash on delivery",
+        "payment options"
+      ],
+      "response": "We accept credit/debit cards, UPI, net banking, and cash on delivery."
+    }
+  ]
+}
